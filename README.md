@@ -1,7 +1,7 @@
 # Algorithms
 just a bunch of algorithms to work with
 
-BIGINT_DEC - class for unusually big integers
+BIGINT_DEC - class for unusually big integers \n
 operators: '+' , '-' => O(n) ; '\*' , '/' , '%' =>  O(n^2) ; pow => O(n^2 log k) ;
 
 Convex_hull - Graham's algorithm + find if point is inside hull (binary search)
