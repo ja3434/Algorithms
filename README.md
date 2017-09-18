@@ -10,3 +10,5 @@ Convex_hull - Graham's algorithm + find if point is inside hull (binary search) 
 
 Interval_tree - tree for adding on interval and counting sum on interval || O(log n) ; TREE for: sum,max,min || O(log n)
 
+Ext_Euclid - Extended Euclidean Algorithm for finding modular multiplicative inverse || O(log n)
+
