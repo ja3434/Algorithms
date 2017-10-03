@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 
-bool EEuk(int a,int b,int &x,int &y)// =( NWD(a,b)==1 )
+bool EEuk(int a,int b,int &x,int &y)// =( GCD(a,b)==1 )
 {
 	
 	int c=a%b;
@@ -41,6 +41,6 @@ int main()
 		printf("(%d * %d) mod %d = 1",b,h,a);//(b*h) mod a = 1
 	}
 	else 
-		printf("NWD(%d,%d)!=1",a,b);
+		printf("GCD(%d,%d)!=1",a,b);
 	return 0;
 }
