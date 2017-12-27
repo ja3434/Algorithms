@@ -92,7 +92,8 @@ struct Centroids
         
         //update centroid tree
         pr[nc]=par;
-        ct[pr[nc]].push_back(nc);//push nc as son to parent
+        if(pr[nc]!=-1)
+            ct[pr[nc]].push_back(nc);//push nc as son to parent
         
         //make recursion
         for(int i=0;i<SZ(Tree[nc]);i++)
